@@ -1,0 +1,340 @@
+/*font*/
+/*Barlow 600*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+/*fraunce 700 900*/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  list-style-type: none;
+}
+
+
+h2,
+h3
+{
+  font-family: 'fraunce', sans-serif;
+
+}
+
+
+p,
+li {
+  font-family: 'barlow', sans-serif;
+  font-size: 18px;
+}
+
+
+/*header*/
+header {
+    background: url(../img/la-nourriture-des-fast-food-modifie-nos-genes.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    height: 100vh;
+    position: relative;
+}
+
+#header{
+    background: url(../img/header.png);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    height: 100vh;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+
+
+
+.header>nav>ul {
+    list-style-type: none;
+    display: flex;
+    
+
+}
+
+.header>nav>ul>li{
+
+    padding: 16px 40px 15px 32px;
+
+}
+
+
+.header>nav>ul>li>a {
+    border: 1px solid white;
+    border-radius: 28px;
+    padding: 16px 40px 15px 32px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+.header>nav>ul>li>a:last-of-type:hover {
+    background-color:  rgba(255, 255, 255, 0.25);
+    color: white;
+    border: 1px transparent;
+}
+
+
+
+.text {
+
+
+    display: flex;
+    justify-content: flex-end;
+    transform: translateY(400px);
+    
+
+}
+
+
+
+.text>h1 {
+
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    padding: 20px;
+
+
+}
+
+.grid {
+    flex-direction: row;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+
+.grid>section {
+    display: flex;
+}
+
+
+
+
+.left-side {
+
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: flex-start;
+
+
+
+
+}
+
+.picture1 {
+    flex-basis: 100%; 
+
+}
+
+.picture1 img {
+    width: 80%;
+    height: 80%;
+}
+
+
+.left-side-text {
+     width: 600px;
+}
+
+.left-side-text p {
+    margin: 3em auto 3em auto;
+    font-size: 30px;
+}
+
+
+
+.left-side-text h2 {
+    line-height: 49px;
+}
+
+.right-side-text {
+    width: 600px;
+}
+
+.right-side-text p {
+    margin: 2em 0;
+}
+
+
+
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 100%;
+}
+
+
+/*footer*/
+
+
+.footer{
+    margin-top: 10px;
+     background-color: hsl(217, 54%, 11%);
+     height: auto;
+     width: 100vw;
+     color: #fff;
+     padding: 20px;
+ }
+ 
+ .footer-content{
+     display: flex;
+     align-items:center ;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+ }
+ 
+ .footer-content h3{
+     font-family: "sans-serif";
+     font-weight: 400;
+     text-transform: capitalize;
+     line-height: 3rem;
+ }
+ 
+ .social-Media{
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 1rem 0 3rem 0 ;
+ 
+ }
+ .social-Media li{
+     margin: 0 10px; 
+ 
+ }
+ 
+ .social-Media a{
+     text-decoration: none;
+     color: #fff;
+ }
+ 
+ .social-Media a i{
+     font-size: 1.1rem;
+     transition: color .4s ease;
+ }   
+ 
+ .social-Media a:hover i{
+     color: aqua;
+ }
+ 
+ .footer-bottom{
+     margin:0;
+     padding:0;
+     background-color: hsl(217, 54%, 11%);
+     padding: 20px 0;
+     width: 100%;
+     text-align: center;
+     position: fixed;
+     bottom: 0;
+     left: 0;
+ }
+ 
+ .footer-bottom p{
+     font-size: 25px;
+     word-spacing: 2px;
+     text-transform: capitalize;
+     
+ }
+ 
+ .contact-detaills{
+     display: flex;
+     
+     flex-direction: column;
+ }
+ 
+ #sendEmail{
+     background-color: #000000;
+     color: #fff;
+     border-radius: 5%;
+     width: 90%;
+     height: 30px;
+     outline: none;
+     bordeR: none;
+ }
+ 
+ .btn{
+     margin-top: 0;
+     width: 150px;
+     background-color: #aaa;
+     color: #fff;
+     border-radius: 5%;
+     cursor: pointer;
+     outline:  none;
+     border: none;
+ }
+ 
+ .btn i{
+     font-size:35px;
+ }
+ .news{
+     font-size:20px;
+     font-family: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
+     text-transform: capitalize;
+     letter-spacing: 3px;
+     margin: 0;
+ }
+ .mail{
+     display: flex;
+ }
+
+
+ 
+@media (min-width:320px) and (max-width:500px) {
+    main>article{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        justify-content: space-between;
+        width: 85%;
+        
+    }
+    article>footer>h3{
+        align-self: center;
+        margin-top: 10px;
+    }
+    article>footer{
+        justify-content: space-between;
+        flex-direction: column;
+    
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        padding: 0%;
+    }
+}
+
+
+
+
